@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="330dp"
+        android:text="forgot password?"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:ignore="HardcodedText"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText,OnClick,RtlHardcoded,SpUsage"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="45dp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textColorHint="@color/black"
+        android:hint="Enter Email"
+        android:drawablePadding="8dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="80dp"
+        android:ems="14"
+        android:importantForAutofill="no"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawableStart="@drawable/email_change_color"
+
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="45dp"
+        android:drawablePadding="8dp"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="80dp"
+        android:ems="14"
+        android:hint="Enter Password"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableStart="@drawable/pass_change_color"
+
+        />
+
+</RelativeLayout>
